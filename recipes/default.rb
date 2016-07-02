@@ -17,6 +17,8 @@ git dotfiles_location do
   action :checkout
   user dotfiles_user
   group dotfiles_group
+  enable_checkout false
+  checkout_branch 'master'
 end
 
 execute './install.sh' do
