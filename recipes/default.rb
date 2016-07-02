@@ -13,7 +13,7 @@ dotfiles_user = 'at'
 dotfiles_group = 'staff'
 
 git dotfiles_location do
-  repository 'git://github.com/fsproru/dotfiles.git'
+  repository 'git@github.com:fsproru/dotfiles.git'
   action :checkout
   user dotfiles_user
   group dotfiles_group
