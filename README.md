@@ -1,56 +1,17 @@
-# dotfiles-cookbook Cookbook
+# dotfiles-cookbook
 
-TODO: Enter the cookbook description here.
+Installs personal dotfiles
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
-
-## Requirements
-
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
-
-e.g.
 ### Platforms
 
-- SandwichOS
+- macOS
 
 ### Chef
 
 - Chef 12.0 or later
 
-### Cookbooks
+### Usage
 
-- `toaster` - dotfiles-cookbook needs toaster to brown your bagel.
-
-## Attributes
-
-TODO: List your cookbook attributes here.
-
-e.g.
-### dotfiles-cookbook::default
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['dotfiles-cookbook']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
-
-## Usage
-
-### dotfiles-cookbook::default
-
-TODO: Write usage instructions for each cookbook.
-
-e.g.
 Just include `dotfiles-cookbook` in your node's `run_list`:
 
 ```json
@@ -76,5 +37,4 @@ e.g.
 
 ## License and Authors
 
-Authors: TODO: List authors
-
+Written by @fsproru, licensed under the MIT License
